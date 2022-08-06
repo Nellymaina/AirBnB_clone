@@ -6,6 +6,7 @@ of instances to and from json
 """
 import json
 
+
 class FileStorage():
     """
     Private class attributes
