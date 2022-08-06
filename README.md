@@ -120,5 +120,5 @@ This repository contains the following files:
  
  
 ## Authors :black_nib::
-Nelly Maina
-Keith Obando.
+* **Nelly Maina**
+* **Keith Obando**
