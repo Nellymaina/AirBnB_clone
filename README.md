@@ -1,9 +1,9 @@
 ![image](https://user-images.githubusercontent.com/99280364/183242557-dcc6e14a-b2a1-4db1-a0eb-cb459eec97de.png)
-DESCRIPTION
+### DESCRIPTION
 
 AirBnB is a complete web application, integrating database storage, a back-end API, and front-end interface. The purpose of this project is to make a command interpreter that manages our AirBnb objects.This project, done in pairs and is the first step into web application.
 
-AirBnB Clone - The Console
+### AirBnB Clone - The Console
 
 The console is the first segment of the AirBnB project that collectively covers the fundamental concepts of higher level programming. The goal of AirBnB project is to eventually deploy our server a simple copy of the AirBnB Website(HBnB). A command interpreter is created in this segment to manage objects for the AirBnB(HBnB) website.
 
@@ -14,7 +14,7 @@ Do operations on objects (count, compute stats, etc...)
 Update attributes of an object
 Destroy an object
 
-Installation:
+### Installation:
 
 Clone this repository: git clone "https://github.com/17Keith/AirBnB_clone.git"
 Access AirBnb directory: cd AirBnB_clone
@@ -25,7 +25,7 @@ Run hbnb(non-interactively): echo "<command>" | ./console.py
  
 How to use it:
 To run the console in non-interactive mode, pipe any command(s) into an execution of the file console.py at the command line.
-example:
+**Example:**
 
 $ echo "help" | ./console.py
 (hbnb) 
@@ -37,7 +37,7 @@ EOF  all  count  create  destroy  help  quit  show  update
 $
 
 Alternatively, to use the HolbertonBnB console in interactive mode, run the file console.py by itself:
-Example:
+**Example:**
 
 $ ./console.py
 While running in interactive mode, the console displays a prompt for input:
@@ -53,7 +53,8 @@ $ ./console.py
 (hbnb) EOF
 $
 Type help within the console to get a list of command options and its functions.
-Example:
+**Example:**
+ ```bash
 $ ./console.py
 (hbnb) help
 
@@ -70,7 +71,7 @@ Quit command to exit the program
 (hbnb) quit
 $
 
-File Descriptions
+### File Descriptions:
 console.py - the console contains the entry point of the command interpreter. List of commands this console current supports:
 
 EOF - exits console
@@ -84,21 +85,21 @@ update - Updates an instance based on the class name and id by adding or updatin
 
 
 
-OBJECTS IMPLEMENTED
+### OBJECTS IMPLEMENTED
 This repository contains the following files:
 
-Folder	File	Description
-tests		Contains test files for AirBnb Clone
-console.py	Command line Interpreter for managing AirBnB objects
-models	base_model.py	Defines all common attributes/methods for other classes
-models	amenity.py	Creates class amenity
-models	city.py	Creates class city
-models	place.py	Creates class place
-models	review.py	Creates class review
-models	state.py	Creates class state
-models	user.py	Creates class user
-models/engine/	file_storage.py	Serializes instances to a JSON file and deserializes JSON file to instances
-
+| Folder | File | Description |
+| :--- | :--- | :--- |
+| tests |  | Contains test files for AirBnb Clone |
+|  | console.py | Command line Interpreter for managing AirBnB objects |
+| models | base_model.py | Defines all common attributes/methods for other classes |
+| models | amenity.py | Creates class `amenity` |
+| models | city.py | Creates class `city` |
+| models | place.py | Creates class `place` |
+| models | review.py | Creates class `review` |
+| models | state.py | Creates class `state` |
+| models | user.py | Creates class `user` |
+| models/engine/ | file_storage.py | Serializes instances to a JSON file and deserializes JSON file to instances |
 This project is done by:
 Nelly Maina
 Keith Obando.
