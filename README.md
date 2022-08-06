@@ -18,12 +18,13 @@ Destroy an object
 
 Clone this repository: git clone "https://github.com/17Keith/AirBnB_clone.git"
 Access AirBnb directory: cd AirBnB_clone
-How to start it:
+### How to start it:
 
 Run hbnb(interactively): ./console and enter command
 Run hbnb(non-interactively): echo "<command>" | ./console.py
  
-How to use it:
+### How to use it:
+
 To run the console in non-interactive mode, pipe any command(s) into an execution of the file console.py at the command line.
 **Example:**
 
@@ -70,19 +71,19 @@ all  destroy  show  update
 Quit command to exit the program
 (hbnb) quit
 $
+```
 
-### File Descriptions:
-console.py - the console contains the entry point of the command interpreter. List of commands this console current supports:
-
-EOF - exits console
-quit - exits console
-<emptyline> - overwrites default emptyline method and does nothing
-create - Creates a new instance ofBaseModel, saves it (to the JSON file) and prints the id
-destroy - Deletes an instance based on the class name and id (save the change into the JSON file).
-show - Prints the string representation of an instance based on the class name and id.
-all - Prints all string representation of all instances based or not on the class name.
-update - Updates an instance based on the class name and id by adding or updating attribute (save the change into the JSON file).
-
+## File Descriptions
+[console.py](console.py) - the console contains the entry point of the command interpreter. 
+List of commands this console current supports:
+* `EOF` - exits console 
+* `quit` - exits console
+* `<emptyline>` - overwrites default emptyline method and does nothing
+* `create` - Creates a new instance of`BaseModel`, saves it (to the JSON file) and prints the id
+* `destroy` - Deletes an instance based on the class name and id (save the change into the JSON file). 
+* `show` - Prints the string representation of an instance based on the class name and id.
+* `all` - Prints all string representation of all instances based or not on the class name. 
+* `update` - Updates an instance based on the class name and id by adding or updating attribute (save the change into the JSON file). 
 
 
 ### OBJECTS IMPLEMENTED
@@ -100,6 +101,9 @@ This repository contains the following files:
 | models | state.py | Creates class `state` |
 | models | user.py | Creates class `user` |
 | models/engine/ | file_storage.py | Serializes instances to a JSON file and deserializes JSON file to instances |
-This project is done by:
+
+ 
+ 
+## Authors :black_nib::
 Nelly Maina
 Keith Obando.
